@@ -1,0 +1,9 @@
+[debug] > Exec(&quot;testOnly Mux4Spec&quot;, None, None)
+[debug] > Exec(&quot, None, None)
+[error] Expected symbol
+[error] Not a valid command: &
+[error] &quot
+[error]  ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

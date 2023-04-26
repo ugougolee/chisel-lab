@@ -15,7 +15,11 @@ class AddSub extends Module {
 
   // ***** your code starts here *****
 
-  // res := ????
+  when (selAdd === true.B) {
+   res := a+b
+  } .otherwise {
+    res := a-b
+  }
 
   // ***** your code ends here *****
 

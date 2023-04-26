@@ -5,11 +5,11 @@ class Count6 extends Module {
     val dout = Output(UInt(8.W))
   })
 
-  val res = Wire(UInt())
+  val res = RegInit(0.U(4.W))
 
   // ***** your code starts here *****
-
-  res := 0.U // dummy code to make it compile
+  res := Mux(res === 6.U, 0.U, res + 1.U)
+  // res := 0.U // dummy code to make it compile
 
   // ***** your code ends here *****
 

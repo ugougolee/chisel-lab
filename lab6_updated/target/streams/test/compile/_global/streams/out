@@ -1,0 +1,11 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Ugo Lee\Desktop\02139 Digital Electronics 2\chisel-lab\lab6_updated\src\test\scala\DisplaySimulation.scala:105:26: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method peek,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      var an = dut.io.an.peek.litValue.toInt[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Ugo Lee\Desktop\02139 Digital Electronics 2\chisel-lab\lab6_updated\src\test\scala\DisplaySimulation.scala:106:28: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method peek,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val seg = dut.io.seg.peek.litValue.toInt[0m
+[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
